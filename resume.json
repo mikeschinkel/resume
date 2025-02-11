@@ -1,88 +1,168 @@
 {
-   "basics":        {
+   "basics":    {
       "name":     "Mike Schinkel",
       "label":    "Senior Software Engineer specializing in Go, Kubernetes, and CI/CD",
-      "email":    "mikeschinkel@gmail.com",
+      "location": {
+         "postalCode":  "GA 30308",
+         "city":        "Atlanta",
+         "countryCode": "US",
+         "region":      "Georgia"
+      },
+      "email":    "mike@newclarity.net",
       "phone":    "678-772-8446",
       "website":  "https://hire.mikeschinkel.com/",
       "profiles": [
          {
             "network":  "GitHub",
             "username": "mikeschinkel",
-            "url":      "https://github.com/mikeschinkel/"
+            "url":      "https://github.com/mikeschinkel"
+         },
+         {
+            "network":  "LinkedIn",
+            "username": "mikeschinkel",
+            "url":      "https://linkedin.com/in/mikeschinkel"
+         },
+         {
+            "network":  "Twitter",
+            "username": "mikeschinkel",
+            "url":      "https://twitter.com/mikeschinkel"
          }
       ]
    },
-   "skills":        [
+   "skills":    [
       {
          "name":     "Go",
          "level":    "8 of 10",
          "keywords": [
-            "Golang"
-
-         ]
-      },
-      {
-         "name":     "Git",
-         "level":    "9 of 10",
-         "keywords": [
-            "Git",
-            "GitLab"
+            "Kubernetes development",
+            "Goroutines & Channels",
+            "Microservices",
+            "CLI tools",
+            "Testing",
+            "oapi-codegen",
+            "sqlc",
+            "echo",
+            "net/http"
          ]
       },
       {
          "name":      "SQL",
-         "qualifier": "developer",
          "level":     "9 of 10",
          "keywords":  [
-            "SQL",
+            "DB development",
+            "3rd-normal form",
+            "Query parsing (in Go)",
+            "sqlc for Go",
             "MySQL",
             "Sqlite"
          ]
       },
       {
-         "name":     "AWS",
-         "level":    "6 of 10",
+         "name":     "Kubernetes",
+         "level":    "7 of 10",
          "keywords": [
-            "IAM",
-            "S3",
-            "Route 53"
+            "Extension development (Go)",
+            "Debugging",
+            "External DNS",
+            "kubectl",
+            "K3s",
+            "K3d"
+         ]
+      },
+      {
+         "name":     "Virtual Machines",
+         "level":    "9 of 10",
+         "keywords": [
+            "VMware",
+            "VirtualBox",
+            "Tart VM",
+            "Parallels"
+         ]
+      },
+      {
+         "name":     "VMware",
+         "level":    "7 of 10",
+         "keywords": [
+            "ESXi",
+            "esxcli",
+            "Fusion",
+            "Admin",
+            "vSphere API",
+            "Govc CLI",
+            "PowerCLI",
+            "Govmomi",
+            "ovftool"
          ]
       },
       {
          "name":     "Docker",
          "level":    "8 of 10",
          "keywords": [
-            "Containers",
-            "Alpine Linux"
+            "Docker Compose",
+            "Alpine Linux",
+            "Portainer"
          ]
       },
       {
-         "name":      "Kubernetes",
-         "qualifier": "developer",
-         "level":     "7 of 10",
-         "keywords":  [
-            "Containers",
-            "Orchestration",
-            "K8s",
-            "K3s",
-            "K3d",
-            "External DNS",
-            "Custom resources",
-            "Custom controllers"
-         ]
-      },
-      {
-         "name":     "Tart VM",
-         "level":    "6 of 10",
+         "name":     "CI/CD",
+         "level":    "8 of 10",
          "keywords": [
-            "Virtual Machines",
-            "Apple Silicon",
-            "VMs"
+            "Infrastructure as Code (IaC)",
+            "Github Actions",
+            "Custom Runners",
+            "CircleCI",
+            "Gitlab Pipelines",
+            "Jenkins"
          ]
       },
       {
-         "name":     "Shell scripting",
+         "name":      "Packer",
+         "level":     "8 of 10",
+         "keywords":  [
+            "Image building",
+            "Writing Plugins (in Go)",
+            "HashiCorp HCL",
+            "ISO",
+            "OVA/OVF",
+            "VMware",
+            "vSphere",
+            "VirtualBox",
+            "Linux",
+            "Windows"
+         ]
+      },
+      {
+         "name":     "Github Actions",
+         "level":    "7 of 10",
+         "keywords": [
+            "Custom Runners"
+         ]
+      },
+      {
+         "name":     "Git",
+         "level":    "9 of 10",
+         "keywords": [
+            "Github",
+            "GitLab",
+            "GitOps",
+            "GitHub API"
+         ]
+      },
+      {
+         "name":     "Linux",
+         "level":    "7 of 10",
+         "keywords": [
+            "Server-related",
+            "Bash scripting",
+            "Debian",
+            "Ubuntu",
+            "Cent/OS",
+            "Alpine",
+            "sudoers.d"
+         ]
+      },
+      {
+         "name":     "Shell Scripting",
          "level":    "8 of 10",
          "keywords": [
             "Bash",
@@ -91,37 +171,47 @@
          ]
       },
       {
-         "name":      "Linux",
-         "qualifier": "server",
-         "level":     "7 of 10",
-         "keywords":  [
-            "Linux",
-            "Debian",
-            "Ubuntu",
-            "Cent/OS",
-            "Alpine"
+         "name":     "Amazon Web Services",
+         "level":    "6 of 10",
+         "keywords": [
+            "IAM",
+            "S3",
+            "Route 53"
          ]
       },
       {
-         "name":      "Packer",
-         "qualifier": "image builder",
-         "level":     "7 of 10",
+         "name":     "Make",
+         "level":    "7 of 10",
+         "keywords": [
+            "Makefile",
+            "Build processes",
+            "Task automation"
+         ]
+      },
+      {
+         "name":      "jFroq Artifactory CLI",
+         "level":     "6 of 10",
          "keywords":  [
-            "ISO",
-            "OVA",
-            "OVF",
-            "VM",
-            "VMware",
-            "Windows",
-            "Bash",
-            "Powershell"
+         ]
+      },
+      {
+         "name":     "Browser Extensions",
+         "level":    "7 of 10",
+         "keywords": [
+            "Chrome",
+            "Microsoft Edge",
+            "Safari",
+            "manifest.json",
+            "Manifest v3"
          ]
       },
       {
          "name":     "JavaScript",
          "level":    "6 of 10",
          "keywords": [
-            "JavaScript"
+            "Alpine JS",
+            "jQuery",
+            "macOS JAX"
          ]
       },
       {
@@ -131,38 +221,42 @@
          "keywords":  [
             "terminal",
             "ITerm2",
-            "Bash"
+            "Bash",
+            "defaults",
+            "Javascript for Automation (JAX)"
          ]
       },
       {
          "name":      "Windows",
-         "qualifier": "script developer",
-         "level":     "5 of 10",
+         "level":     "6 of 10",
          "keywords":  [
-            "Windows",
-            "Scripting"
+            "Powershell scripting",
+            "ISO creation w/Packer",
+            "Virtual machines",
+            "Windows System Image Manager",
+            "autounattend"
          ]
       },
       {
          "name":     "Powershell",
          "level":    "5 of 10",
          "keywords": [
-            "Windows",
-            "Scripting"
+            "Pester testing",
+            "Invoke-WebRequest",
+            "Invoke-RestMethod",
+            "Get-Content",
+            "ConvertFrom-Json",
+            "Set-Service",
+            "Install-WindowsFeature",
+            "New-LocalUser",
+            "Add-LocalGroupMember",
+            "$PSVersionTable",
+            "$Password",
+            "$Env"
          ]
       }
    ],
-   "education":     [
-      {
-         "institution": "Georgia Institute of Technology",
-         "area":        "Mechanical Engineering",
-         "studyType":   "B.S.M.E.",
-         "startDate":   "1981",
-         "endDate":     "1988"
-      }
-   ],
-   "awards":        [],
-   "work":          [
+   "work":      [
       {
          "name":       "NewClarity Consulting, LLC",
          "position":   "Owner",
@@ -170,13 +264,14 @@
          "highlights": [
             "Specializing in Go development with Kubernetes and automating CI/CD build systems",
             "10+ clients over almost two decades",
-            "Developed various open-source software project"
+            "Developed and released numerous open-source software projects",
+            "Currently working on PrefsCTL for managing Apple user preferences"
          ],
          "keywords":   [
-            "External DNS",
-            "Kubernetes",
-            "Golang",
-            "DNS"
+            "Golang Software Engineering",
+            "Kubernetes Extension Development",
+            "Developer workflow automation",
+            "CI/CD"
          ]
       },
       {
@@ -197,13 +292,13 @@
          ]
       },
       {
-         "name":       "TAG Data Science / Davis Direction",
+         "name":       "Technology Association of Georgia — Data Science SIG",
          "position":   "Database Engineer (Pro Bono)",
          "startDate":  "2023-11",
          "endDate":    "2024-03",
          "highlights": [
-            "Prepared source data for distribution to TAG-for-Good Data Science Competition",
-            "Worked with Davis Direction to understand their business and desired outcomes",
+            "Prepared TAG client's data to be analyzed by Data Science competition participants",
+            "Worked with TAG's client to understand their business and desired outcomes",
             "Exported SaaS data from QuickBooks, Salesforce, event management solutions",
             "Wrote Go program to convert QuickBooks reports to CSV formats",
             "Imported and consolidated data into a single Sqlite database file",
@@ -246,31 +341,100 @@
       },
       {
          "name":       "HPE",
-         "position":   "Contract Go Software Engineer",
+         "position":   "Contract DevOps & Go Software Engineer",
          "startDate":  "2021-08",
          "endDate":    "2022-08",
          "highlights": [
-            "Built a ",
-            "Helped to maintain and evolve Kubernetes Operator for SingleStore",
-            "Developed solution to audit Go app for packages with incompatible licenses",
-            "Updated and streamlined build process for Kubernetes Operator"
+            "Worked on HTTP client & server in Go for CentOS-based gateway and Windows Server-based client for the collection of machine status and SQL Server perf metrics",
+            "Built Jenkins jobs using Bash and Groovy to create CentOS-based RPMs and Ubuntu-based ISOs and OVAs",
+            "Automated deployment to Frog Artifactory using vCenter vSphere CLI running on VMware VM",
+            "Created Windows Server 2019 VM w/Packer for dev & test of Go-based Windows agents running locally on macOS, and wrote Packer plugin in Go",
+            "Implemented automated build and evaluate process for VMware OVA running Ubuntu on VM in vCenter triggered locally or GitHub Actions on:push",
+            "Implemented process orchestration for product build process of Ubuntu ISO then OVA for use in VMware/vSphere/vCenter",
+            "Implemented upload to jFrog Artifactory and push to Amazon AWS S3 for ultimate download by customers managed via GitHub Actions"
          ],
          "keywords":   [
-            "External DNS",
-            "Kubernetes",
-            "Golang",
-            "DNS",
-            "Open-source",
-            "Licenses",
-            "Operator",
-            "Build",
-            "CI/CD",
-            "Delve",
-            "Debugging"
+            "Packer",
+            "vSphere",
+            "vCenter",
+            "Virtual Machines",
+            "VMware ESXi",
+            "jFrog Artifactory",
+            "Jenkins",
+            "Amazon S3",
+            "Github Actions",
+            "Windows Server",
+            "Delve Debugger",
+            "Metrics collection",
+            "ISOs & OVAs",
+            "Cent OS",
+            "Ubuntu",
+            "MS SQL Server"
+         ]
+      },
+      {
+         "name":       "LinkedIn Learning",
+         "position":   "Contract Skills Assessment Test Author",
+         "startDate":  "2021-08",
+         "endDate":    "2021-09",
+         "highlights": [
+            "Worked with the team from LinkedIn Learning and two (2) other authors",
+            "Collaborated on the scope and outline for Go skills assessment test",
+            "Authored 50 Go skill-related questions",
+            "Coordinated with reviewers to make requested changes"
+         ],
+         "keywords":   [
+            "Go",
+            "Skills assessment",
+            "Test authoring"
+         ]
+      },
+      {
+         "name":       "Resideo Technologies for FrontSide",
+         "position":   "Contract Go Software Engineer",
+         "startDate":  "2021-02",
+         "endDate":    "2021-05",
+         "highlights": [
+            "Developed pattern for client to use for Go-based microservices",
+            "Developed CLI to support a Node JS-based Backstage developer portal implementation focusing on testability",
+            "Used the Echo web framework w/OpenAPI code gen for microservice scaffolding.",
+            "Implemented GitOps w/change management via Github Pull Requests to control jobs for a Jenkins build system",
+            "Developed Go-based MitM proxy as a test double for GitHub API",
+            "Integrated Node JS-based Mountebank for additional API testing",
+            "Diagnosed, remediated and submitted PR for Mountebank's no support of HTTPS CONNECT",
+            "Implemented pattern for BDD-based testing using Ginkgo and GoMega",
+            "Developed techniques to validate duplicated string literals throughout a test suite"
+         ],
+         "keywords":   [
+            "Testing",
+            "Go",
+            "Microservices",
+            "MitM Proxy",
+            "GitOps",
+            "HTTP"
+         ]
+      },
+      {
+         "name":       "Various",
+         "position":   "Prior non-Go/Kubernetes/CI-CD/DevOps related roles",
+         "endDate":    "2022-07",
+         "highlights": [
+            "Led development teams for clients",
+            "Developed solutions for clients in a variety of programming languages ",
+            "Hosted various Meetups for both Entrepreneurs and software developers",
+            "Founded and grew a startup to #123 on Inc 500 within five years",
+            "Trained programmers professionally for several years"
+         ],
+         "keywords":   [
+            "Team Lead",
+            "Meetup",
+            "Inc 500",
+            "Startup",
+            "Training"
          ]
       }
    ],
-   "projects":      [
+   "projects":  [
       {
          "name":  "PrefsCTL",
          "type":  "utility",
@@ -283,6 +447,7 @@
       },
       {
          "name":  "go-sofafeed",
+         "url":   "https://github.com/mikeschinkel/go-sofafeed",
          "type":  "package",
          "about": "Golang package for fetching and parsing the JSON format Simple Organized Feed for Apple Software Updates hosted at sofa.macadmins.io",
          "stack": [
@@ -335,7 +500,7 @@
       {
          "name":  "Bash Macros",
          "type":  "utility",
-         "url":   "https://github.com/mikeschinkel/readme-merge",
+         "url":   "https://github.com/mikeschinkel/bash-macros",
          "about": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
          "stack": [
             "Bash"
@@ -343,6 +508,7 @@
       },
       {
          "name":  "go-diffator",
+         "url":   "https://github.com/mikeschinkel/go-diffator",
          "type":  "package",
          "about": "Diffator is a Go package to provide a difference string for comparing two Go values during testing.",
          "stack": [
@@ -351,6 +517,7 @@
       },
       {
          "name":  "go-testdata-defaulter",
+         "url":   "https://github.com/mikeschinkel/go-testdata-defaulter",
          "type":  "package",
          "about": "Set table-driven test data defaults so that tables in tests only need include data that differs from defaults.",
          "stack": [
@@ -359,6 +526,7 @@
       },
       {
          "name":  "go-typegen",
+         "url":   "https://github.com/mikeschinkel/go-typegen",
          "type":  "package",
          "about": "Simple Golang generator package for test fixtures.",
          "stack": [
@@ -366,7 +534,7 @@
          ]
       }
    ],
-   "interests":     [
+   "interests": [
       {
          "keywords": [
             "Programming",
@@ -376,25 +544,47 @@
          ]
       }
    ],
-   "volunteer":     [
-     {
-       "organization": "Open Source Pull Requests",
-       "position": "Contributor",
-       "url": "https://github.com/search?q=author:mikeschinkel&is:pr&is:merged&type=pullrequests",
-       "website": "https://github.com/mikeschinkel",
-       "startDate": "2013-09",
-       "summary": "Active contributor to various open source projects, focusing on feature improvements and bug fixes",
-       "highlights": [
-         "micromdm/plist — PR #46: Allow `*any` when using `UnmarshalPlist()` (accepted, 2025)",
-         "sqlc-dev/sqlc — PR #123: Avoid generating empty Go imports statement (merged, 2024)",
-         "vmware/govmomi — PR #2840: Fixed docs for govc library.info w/-json (merged, 2022)",
-         "Plus over 100 more, 60 of which have been merged"
-       ]
-     }
+   "education": [{
+      "institution": "Georgia Institute of Technology",
+      "url": "https://www.gatech.edu/",
+      "area":        "Mechanical Engineering",
+      "studyType":   "B.S.M.E.",
+      "startDate":   "1981",
+      "endDate":     "1988"
+   }],
+   "volunteer": [
+      {
+         "organization": "The Linux Foundation — OpenAPI Initiative",
+         "position":     "Volunteer",
+         "url":          "https://www.openapis.org/",
+         "startDate":    "2025-01",
+         "summary":      "Participating in various working group to help improve and promote the use of OpenAPI"
+      },
+      {
+         "organization": "Open Source Pull Requests",
+         "position":     "Contributor",
+         "url":          "https://github.com/search?q=author:mikeschinkel&is:pr&is:merged&type=pullrequests",
+         "website":      "https://github.com/mikeschinkel",
+         "startDate":    "2013-09",
+         "summary":      "Active contributor to various open source projects, focusing on feature improvements and bug fixes",
+         "highlights":   [
+            "micromdm/plist — PR #46: Allow `*any` when using `UnmarshalPlist()` (accepted, 2025)",
+            "sqlc-dev/sqlc — PR #123: Avoid generating empty Go imports statement (merged, 2024)",
+            "vmware/govmomi — PR #2840: Fixed docs for govc library.info w/-json (merged, 2022)",
+            "Plus over 100 more, 60 of which have been merged"
+         ]
+      },
+      {
+         "organization": "Davis Direction Foundation",
+         "position":     "Volunteer",
+         "url":          "https://www.davisdirection.com/",
+         "startDate":    "2023-11",
+         "endDate":      "2024-03",
+         "summary":      "Prepared source data for distribution to TAG-for-Good Data Science Competition"
+      }
    ],
-   "certificates":  [],
-   "languages":     [],
-   "references":    [],
-   "meta":          {},
-   "publications":  []
+   "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+   }]
 }
