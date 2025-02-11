@@ -32,4 +32,7 @@ ssh-copy-id blog
 
 ## Acknowledgements
 
-Huge thanks for [Eric Riese](https://github.com/er2) for [inspiring me](https://www.codementor.io/@ericriese/how-i-maintain-my-resume-and-why-2ac7ensiqk) to manage my resume on Github, [too](https://github.com/er2/resume).
+Huge thanks to:
+
+- [Eric Riese](https://github.com/er2) for [inspiring me](https://www.codementor.io/@ericriese/how-i-maintain-my-resume-and-why-2ac7ensiqk) to manage my resume on Github, [too](https://github.com/er2/resume).
+- All the devs who've contributed to [JSON Resume](https://jsonresume.org/) for their initiative to create a JSON-based standard for resumes.  
