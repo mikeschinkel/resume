@@ -443,7 +443,7 @@
          "name":  "PrefsCTL",
          "type":  "utility",
          "url":   "https://github.com/mikeschinkel/prefsctl",
-         "about": "CLI tool for managing macOS preferences in a YAML file like kubectl for Kubernetes manifests",
+         "description": "CLI tool for managing macOS preferences in a YAML file like kubectl for Kubernetes manifests",
          "stack": [
             "Go",
             "cgo"
@@ -453,7 +453,7 @@
          "name":  "go-sofafeed",
          "url":   "https://github.com/mikeschinkel/go-sofafeed",
          "type":  "package",
-         "about": "Golang package for fetching and parsing the JSON format Simple Organized Feed for Apple Software Updates hosted at sofa.macadmins.io",
+         "description": "Golang package for fetching and parsing the JSON format Simple Organized Feed for Apple Software Updates hosted at sofa.macadmins.io",
          "stack": [
             "Go"
          ]
@@ -462,7 +462,7 @@
          "name":  "README Merge",
          "type":  "utility",
          "url":   "https://github.com/mikeschinkel/readme-merge",
-         "about": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
+         "description": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
          "stack": [
             "Go",
             "Bash",
@@ -475,7 +475,7 @@
          "name":  "SSOT",
          "type":  "utility",
          "url":   "https://github.com/mikeschinkel/ssot",
-         "about": "Single Source Of Truth CLI utility — Like envsubst, but in-place and with .yaml",
+         "description": "Single Source Of Truth CLI utility — Like envsubst, but in-place and with .yaml",
          "stack": [
             "Go"
          ]
@@ -484,7 +484,7 @@
          "name":  "SaveTabs",
          "type":  "daemon + browser extension",
          "url":   "https://github.com/mikeschinkel/savetabs",
-         "about": "Chrome extension paired with local HTTP server for save links along with their tab groups",
+         "description": "Chrome extension paired with local HTTP server for save links along with their tab groups",
          "stack": [
             "Go",
             "Sqlite",
@@ -505,7 +505,7 @@
          "name":  "Bash Macros",
          "type":  "utility",
          "url":   "https://github.com/mikeschinkel/bash-macros",
-         "about": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
+         "description": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
          "stack": [
             "Bash"
          ]
@@ -514,7 +514,7 @@
          "name":  "go-diffator",
          "url":   "https://github.com/mikeschinkel/go-diffator",
          "type":  "package",
-         "about": "Diffator is a Go package to provide a difference string for comparing two Go values during testing.",
+         "description": "Diffator is a Go package to provide a difference string for comparing two Go values during testing.",
          "stack": [
             "Go"
          ]
@@ -523,7 +523,7 @@
          "name":  "go-testdata-defaulter",
          "url":   "https://github.com/mikeschinkel/go-testdata-defaulter",
          "type":  "package",
-         "about": "Set table-driven test data defaults so that tables in tests only need include data that differs from defaults.",
+         "description": "Set table-driven test data defaults so that tables in tests only need include data that differs from defaults.",
          "stack": [
             "Go"
          ]
@@ -532,7 +532,7 @@
          "name":  "go-typegen",
          "url":   "https://github.com/mikeschinkel/go-typegen",
          "type":  "package",
-         "about": "Simple Golang generator package for test fixtures.",
+         "description": "Simple Golang generator package for test fixtures.",
          "stack": [
             "Go"
          ]
