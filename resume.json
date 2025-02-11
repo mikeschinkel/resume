@@ -1,4 +1,7 @@
 {
+   "meta": {
+      "theme": "kendall"
+   },
    "basics":    {
       "name":     "Mike Schinkel",
       "label":    "Senior Software Engineer specializing in Go, Kubernetes, and CI/CD",
@@ -239,7 +242,7 @@
       },
       {
          "name":     "Powershell",
-         "level":    "5 of 10",
+         "level":    "6 of 10",
          "keywords": [
             "Pester testing",
             "Invoke-WebRequest",
@@ -416,14 +419,15 @@
       },
       {
          "name":       "Various",
-         "position":   "Prior non-Go/Kubernetes/CI-CD/DevOps related roles",
+         "position":   "Prior non-Go/Kubernetes/CI-CD related roles",
          "endDate":    "2022-07",
          "highlights": [
             "Led development teams for clients",
             "Developed solutions for clients in a variety of programming languages ",
             "Hosted various Meetups for both Entrepreneurs and software developers",
             "Founded and grew a startup to #123 on Inc 500 within five years",
-            "Trained programmers professionally for several years"
+            "Trained programmers professionally for several years",
+            "ASK if you need more details about these"
          ],
          "keywords":   [
             "Team Lead",

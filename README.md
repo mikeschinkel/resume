@@ -1,10 +1,12 @@
 # Mike Schinkel's Resume and Build scripts
 
+To see a formatted version of my resume, [click here](https://registry.jsonresume.org/mikeschinkel)
 
+<!-- 
 My pdf permalink is https://hire.mikeschinkel.com
 
 My `.docx` is at https://hire.mikeschinkel.com/resume.docx
-
+-->
 ## Repo Architecture
 
 - `resume.fodt` is my resume's source file. 
