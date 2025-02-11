@@ -107,7 +107,12 @@
          "keywords": [
             "Docker Compose",
             "Alpine Linux",
-            "Portainer"
+            "Portainer",
+            "FROM..AS",
+            "WORKDIR",
+            "COPY",
+            "ARG",
+            "ENTRYPOINT"
          ]
       },
       {
