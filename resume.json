@@ -147,7 +147,22 @@
          "name":     "Github Actions",
          "level":    "7 of 10",
          "keywords": [
-            "Custom Runners"
+            ".github/workflow",
+            "Custom Runners",
+            "Matrix builds",
+            "Artifacts",
+            "Secrets",
+            "github.workflow",
+            "github.ref",
+            "push:",
+            "pull_request:",
+            "workflow_dispatch:",
+            "concurrency:",
+            "jobs:",
+            "steps:",
+            "uses:",
+            "on:"
+
          ]
       },
       {
