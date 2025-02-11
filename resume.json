@@ -42,10 +42,14 @@
             "Microservices",
             "CLI tools",
             "Testing",
+            "aws-sdk-go",
+            "docker",
             "oapi-codegen",
+            "kin-openapi",
+            "nethttp-middleware",
             "sqlc",
-            "echo",
-            "net/http"
+            "cobra",
+            "yaml.v3"
          ]
       },
       {
@@ -161,7 +165,13 @@
             "Ubuntu",
             "Cent/OS",
             "Alpine",
-            "sudoers.d"
+            "visudo",
+            "nmcli",
+            "systemctl",
+            "journalctl",
+            "avahi",
+            "suduers.d",
+            "sshd_config.d"
          ]
       },
       {
@@ -188,13 +198,15 @@
          "keywords": [
             "Makefile",
             "Build processes",
-            "Task automation"
+            "Task automation",
+            ".PHONY"
          ]
       },
       {
-         "name":      "jFroq Artifactory CLI",
+         "name":      "jFrog Artifactory CLI",
          "level":     "6 of 10",
          "keywords":  [
+            "jf rt"
          ]
       },
       {
