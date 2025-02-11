@@ -1,0 +1,400 @@
+{
+   "basics":        {
+      "name":     "Mike Schinkel",
+      "label":    "Senior Software Engineer specializing in Go, Kubernetes, and CI/CD",
+      "email":    "mikeschinkel@gmail.com",
+      "phone":    "678-772-8446",
+      "website":  "https://hire.mikeschinkel.com/",
+      "profiles": [
+         {
+            "network":  "GitHub",
+            "username": "mikeschinkel",
+            "url":      "https://github.com/mikeschinkel/"
+         }
+      ]
+   },
+   "skills":        [
+      {
+         "name":     "Go",
+         "level":    "8 of 10",
+         "keywords": [
+            "Golang"
+
+         ]
+      },
+      {
+         "name":     "Git",
+         "level":    "9 of 10",
+         "keywords": [
+            "Git",
+            "GitLab"
+         ]
+      },
+      {
+         "name":      "SQL",
+         "qualifier": "developer",
+         "level":     "9 of 10",
+         "keywords":  [
+            "SQL",
+            "MySQL",
+            "Sqlite"
+         ]
+      },
+      {
+         "name":     "AWS",
+         "level":    "6 of 10",
+         "keywords": [
+            "IAM",
+            "S3",
+            "Route 53"
+         ]
+      },
+      {
+         "name":     "Docker",
+         "level":    "8 of 10",
+         "keywords": [
+            "Containers",
+            "Alpine Linux"
+         ]
+      },
+      {
+         "name":      "Kubernetes",
+         "qualifier": "developer",
+         "level":     "7 of 10",
+         "keywords":  [
+            "Containers",
+            "Orchestration",
+            "K8s",
+            "K3s",
+            "K3d",
+            "External DNS",
+            "Custom resources",
+            "Custom controllers"
+         ]
+      },
+      {
+         "name":     "Tart VM",
+         "level":    "6 of 10",
+         "keywords": [
+            "Virtual Machines",
+            "Apple Silicon",
+            "VMs"
+         ]
+      },
+      {
+         "name":     "Shell scripting",
+         "level":    "8 of 10",
+         "keywords": [
+            "Bash",
+            "Linux",
+            "macOS"
+         ]
+      },
+      {
+         "name":      "Linux",
+         "qualifier": "server",
+         "level":     "7 of 10",
+         "keywords":  [
+            "Linux",
+            "Debian",
+            "Ubuntu",
+            "Cent/OS",
+            "Alpine"
+         ]
+      },
+      {
+         "name":      "Packer",
+         "qualifier": "image builder",
+         "level":     "7 of 10",
+         "keywords":  [
+            "ISO",
+            "OVA",
+            "OVF",
+            "VM",
+            "VMware",
+            "Windows",
+            "Bash",
+            "Powershell"
+         ]
+      },
+      {
+         "name":     "JavaScript",
+         "level":    "6 of 10",
+         "keywords": [
+            "JavaScript"
+         ]
+      },
+      {
+         "name":      "macOS",
+         "qualifier": "script developer",
+         "level":     "9 of 10",
+         "keywords":  [
+            "terminal",
+            "ITerm2",
+            "Bash"
+         ]
+      },
+      {
+         "name":      "Windows",
+         "qualifier": "script developer",
+         "level":     "5 of 10",
+         "keywords":  [
+            "Windows",
+            "Scripting"
+         ]
+      },
+      {
+         "name":     "Powershell",
+         "level":    "5 of 10",
+         "keywords": [
+            "Windows",
+            "Scripting"
+         ]
+      }
+   ],
+   "education":     [
+      {
+         "institution": "Georgia Institute of Technology",
+         "area":        "Mechanical Engineering",
+         "studyType":   "B.S.M.E.",
+         "startDate":   "1981",
+         "endDate":     "1988"
+      }
+   ],
+   "awards":        [],
+   "work":          [
+      {
+         "name":       "NewClarity Consulting, LLC",
+         "position":   "Owner",
+         "startDate":  "2007-01",
+         "highlights": [
+            "Specializing in Go development with Kubernetes and automating CI/CD build systems",
+            "10+ clients over almost two decades",
+            "Developed various open-source software project"
+         ],
+         "keywords":   [
+            "External DNS",
+            "Kubernetes",
+            "Golang",
+            "DNS"
+         ]
+      },
+      {
+         "name":       "Five9",
+         "position":   "Contract Go Software Engineer",
+         "startDate":  "2024-08",
+         "endDate":    "2024-10",
+         "highlights": [
+            "Developed External DNS Provider in Go for Five9's internal proprietary DNS",
+            "Developed CLI for interacting with Five9's internal proprietary DNS",
+            "Developed tests for CLI and External DNS Provider"
+         ],
+         "keywords":   [
+            "External DNS",
+            "Kubernetes",
+            "Golang",
+            "DNS"
+         ]
+      },
+      {
+         "name":       "TAG Data Science / Davis Direction",
+         "position":   "Database Engineer (Pro Bono)",
+         "startDate":  "2023-11",
+         "endDate":    "2024-03",
+         "highlights": [
+            "Prepared source data for distribution to TAG-for-Good Data Science Competition",
+            "Worked with Davis Direction to understand their business and desired outcomes",
+            "Exported SaaS data from QuickBooks, Salesforce, event management solutions",
+            "Wrote Go program to convert QuickBooks reports to CSV formats",
+            "Imported and consolidated data into a single Sqlite database file",
+            "Cleansed and related data to allow for accurate analysis",
+            "Anonymized data, removing personally identifiable information (PII)",
+            "Coordinated with contestants to understand to DB to allow them to compete"
+         ],
+         "keywords":   [
+            "Data Science",
+            "Sqlite",
+            "ProBono",
+            "Salesforce",
+            "QuickBooks"
+         ]
+      },
+      {
+         "name":       "SingleStore",
+         "position":   "Contract Go Software Engineer",
+         "startDate":  "2022-08",
+         "endDate":    "2023-04",
+         "highlights": [
+            "Implemented real-time debugging of Kubernetes Operator using Go's Delve debugger",
+            "Helped to maintain and evolve Kubernetes Operator for SingleStore",
+            "Developed solution to audit Go app for packages with incompatible licenses",
+            "Updated and streamlined build process for Kubernetes Operator"
+         ],
+         "keywords":   [
+            "External DNS",
+            "Kubernetes",
+            "Golang",
+            "DNS",
+            "Open-source",
+            "Licenses",
+            "Operator",
+            "Build",
+            "CI/CD",
+            "Delve",
+            "Debugging"
+         ]
+      },
+      {
+         "name":       "HPE",
+         "position":   "Contract Go Software Engineer",
+         "startDate":  "2021-08",
+         "endDate":    "2022-08",
+         "highlights": [
+            "Built a ",
+            "Helped to maintain and evolve Kubernetes Operator for SingleStore",
+            "Developed solution to audit Go app for packages with incompatible licenses",
+            "Updated and streamlined build process for Kubernetes Operator"
+         ],
+         "keywords":   [
+            "External DNS",
+            "Kubernetes",
+            "Golang",
+            "DNS",
+            "Open-source",
+            "Licenses",
+            "Operator",
+            "Build",
+            "CI/CD",
+            "Delve",
+            "Debugging"
+         ]
+      }
+   ],
+   "projects":      [
+      {
+         "name":  "PrefsCTL",
+         "type":  "utility",
+         "url":   "https://github.com/mikeschinkel/prefsctl",
+         "about": "CLI tool for managing macOS preferences in a YAML file like kubectl for Kubernetes manifests",
+         "stack": [
+            "Go",
+            "cgo"
+         ]
+      },
+      {
+         "name":  "go-sofafeed",
+         "type":  "package",
+         "about": "Golang package for fetching and parsing the JSON format Simple Organized Feed for Apple Software Updates hosted at sofa.macadmins.io",
+         "stack": [
+            "Go"
+         ]
+      },
+      {
+         "name":  "README Merge",
+         "type":  "utility",
+         "url":   "https://github.com/mikeschinkel/readme-merge",
+         "about": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
+         "stack": [
+            "Go",
+            "Bash",
+            "Github Actions",
+            "Docker",
+            "Markdown"
+         ]
+      },
+      {
+         "name":  "SSOT",
+         "type":  "utility",
+         "url":   "https://github.com/mikeschinkel/ssot",
+         "about": "Single Source Of Truth CLI utility — Like envsubst, but in-place and with .yaml",
+         "stack": [
+            "Go"
+         ]
+      },
+      {
+         "name":  "SaveTabs",
+         "type":  "daemon + browser extension",
+         "url":   "https://github.com/mikeschinkel/savetabs",
+         "about": "Chrome extension paired with local HTTP server for save links along with their tab groups",
+         "stack": [
+            "Go",
+            "Sqlite",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "HTMX",
+            "AlpineJS",
+            "Tailwind CSS",
+            "Daisy UI",
+            "Bash",
+            "Browser Extension",
+            "Chrome",
+            "Microsoft Edge"
+         ]
+      },
+      {
+         "name":  "Bash Macros",
+         "type":  "utility",
+         "url":   "https://github.com/mikeschinkel/readme-merge",
+         "about": "GitHub Action, Dockerfile, and CLI tool to allow merging child Markdown docs into one README.md",
+         "stack": [
+            "Bash"
+         ]
+      },
+      {
+         "name":  "go-diffator",
+         "type":  "package",
+         "about": "Diffator is a Go package to provide a difference string for comparing two Go values during testing.",
+         "stack": [
+            "Go"
+         ]
+      },
+      {
+         "name":  "go-testdata-defaulter",
+         "type":  "package",
+         "about": "Set table-driven test data defaults so that tables in tests only need include data that differs from defaults.",
+         "stack": [
+            "Go"
+         ]
+      },
+      {
+         "name":  "go-typegen",
+         "type":  "package",
+         "about": "Simple Golang generator package for test fixtures.",
+         "stack": [
+            "Go"
+         ]
+      }
+   ],
+   "interests":     [
+      {
+         "keywords": [
+            "Programming",
+            "CI/CD DevOps & IaC",
+            "Homelabs",
+            "SciFi TV Series"
+         ]
+      }
+   ],
+   "volunteer":     [
+     {
+       "organization": "Open Source Pull Requests",
+       "position": "Contributor",
+       "url": "https://github.com/search?q=author:mikeschinkel&is:pr&is:merged&type=pullrequests",
+       "website": "https://github.com/mikeschinkel",
+       "startDate": "2013-09",
+       "summary": "Active contributor to various open source projects, focusing on feature improvements and bug fixes",
+       "highlights": [
+         "micromdm/plist — PR #46: Allow `*any` when using `UnmarshalPlist()` (accepted, 2025)",
+         "sqlc-dev/sqlc — PR #123: Avoid generating empty Go imports statement (merged, 2024)",
+         "vmware/govmomi — PR #2840: Fixed docs for govc library.info w/-json (merged, 2022)",
+         "Plus over 100 more, 60 of which have been merged"
+       ]
+     }
+   ],
+   "certificates":  [],
+   "languages":     [],
+   "references":    [],
+   "meta":          {},
+   "publications":  []
+}
