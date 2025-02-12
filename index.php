@@ -3,7 +3,7 @@
 $resume_url = 'https://registry.jsonresume.org/mikeschinkel';
 
 // Determine display method from query string
-$display_method = 'iframe';  // default method
+$display_method = 'fetch';  // default method
 if (isset($_GET['fetch'])) {
     $display_method = 'fetch';
 } elseif (isset($_GET['iframe'])) {
